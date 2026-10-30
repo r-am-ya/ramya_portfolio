@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ramya K – AI & ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F7FA;--surface:#FFFFFF;--panel:#E4EEEE;--ink:#1F2933;--muted:#5B6773;--line:#D5DCE3;--accent:#0E6B6B;--on:#FFFFFF;--p1:#D9EAEA;--p2:#E0E7F4;--p3:#F2E8D5;--p4:#E3EBDD;--p5:#E8E3EF;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12181F;--surface:#1D2833;--panel:#1A2530;--ink:#E6EBF0;--muted:#9AA6B2;--line:#2A343F;--accent:#5FB8B8;--on:#0E1A1A;--p1:#1B2F33;--p2:#1D2640;--p3:#2F2A1E;--p4:#212E22;--p5:#2A2438;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12181F;--surface:#1D2833;--panel:#1A2530;--ink:#E6EBF0;--muted:#9AA6B2;--line:#2A343F;--accent:#5FB8B8;--on:#0E1A1A;--p1:#1B2F33;--p2:#1D2640;--p3:#2F2A1E;--p4:#212E22;--p5:#2A2438;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "IBM Plex Sans",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;margin:0;line-height:1.15}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:58px;gap:16px}
+header.top b{font-family:"Source Serif 4",Georgia,serif;font-size:1.15rem}
+header.top nav{display:flex;gap:24px;overflow-x:auto}
+header.top nav a{color:var(--muted);text-decoration:none;font-size:.95rem;white-space:nowrap}
+header.top nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center;padding:72px 0 88px}
+h1{font-size:clamp(2.5rem,5.4vw,4rem);font-weight:700;letter-spacing:-.015em}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:32em;margin:22px 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;border:1.5px solid var(--accent);color:var(--accent)}
+.btn.solid{background:var(--accent);color:var(--on)}
+.btn:hover{filter:brightness(1.1)}
+.portrait{border-radius:16px;overflow:hidden;background:var(--panel)}
+.portrait svg{display:block;width:100%;height:auto}
+h2{font-size:clamp(1.8rem,3.4vw,2.4rem);font-weight:700}
+.lede{color:var(--muted);max-width:34em;margin:10px 0 0}
+#work{padding-bottom:24px}
+.work{display:grid;grid-template-columns:1.15fr 1fr;gap:52px;align-items:center;margin-top:76px}
+.work:nth-of-type(even) .shot{order:2}
+.shot{border-radius:16px;padding:18px}
+.shot svg{display:block;width:100%;height:auto}
+.work h3{font-size:1.8rem;font-weight:700}
+.work p{margin:12px 0 0}
+.work .res{color:var(--ink);font-weight:500}
+.tech{color:var(--muted);font-size:.93rem;margin-top:14px!important}
+.work .btns{margin-top:22px;gap:16px}
+.work .btn{padding:10px 18px}
+.tl{font-weight:600}
+section.block{padding-top:104px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:36px;border-top:1px solid var(--line);padding-top:32px}
+.cols h3{font-size:1.15rem;margin-bottom:8px}
+.cols p{margin:0 0 8px;font-size:.98rem}
+.cols .sub{color:var(--muted)}
+.cols ul{margin:8px 0 0;padding-left:18px;font-size:.98rem}
+.cols li{margin-bottom:6px}
+.about p{max-width:38em;margin:18px 0 0}
+.sk{display:grid;grid-template-columns:200px 1fr;gap:10px 24px;margin:32px 0 0}
+.sk dt{font-weight:600}.sk dd{margin:0;color:var(--muted)}
+.contact{background:var(--panel);border-radius:20px;padding:56px 40px;margin-top:104px}
+.contact h2{font-size:clamp(2rem,4vw,2.8rem)}
+.contact p{margin:12px 0 0;color:var(--muted);max-width:30em}
+.contact .mail{display:inline-block;margin-top:22px;font-family:"Source Serif 4",Georgia,serif;font-size:clamp(1.3rem,3.2vw,2rem);font-weight:700;word-break:break-all}
+.contact .btns{margin-top:22px;gap:6px 24px;font-weight:500}
+footer{padding:36px 0 44px;color:var(--muted);font-size:.9rem}
+@media (max-width:820px){
+.hero,.work{grid-template-columns:1fr;gap:30px}
+.hero{padding:44px 0 56px}
+.work:nth-of-type(even) .shot{order:0}
+.work{margin-top:56px}
+.cols{grid-template-columns:1fr;gap:28px}
+.sk{grid-template-columns:1fr;gap:2px}.sk dd{margin-bottom:12px}
+.contact{padding:36px 24px}
+section.block{padding-top:72px}
+.portrait{max-width:340px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<b>Ramya K</b>
+<nav><a href="#work">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main class="wrap">
+<div class="hero">
+<div>
+<h1>I build machine learning that people can actually use.</h1>
+<p>I’m Ramya, a final-year Computer Science (AI & ML) student at Jain University, Bengaluru. I take projects from data and models all the way to live web apps: computer vision, language models and explainable ML.</p>
+<div class="btns"><a class="btn solid" href="#work">See my work</a><a class="btn" href="#contact">Get in touch</a></div>
+</div>
+<div class="portrait">
+<svg viewBox="100 90 220 270" role="img" aria-label="Illustration of a young woman working on a laptop">
+<path d="M158 178C148 100 272 100 262 178C268 232 256 272 240 296L180 296C164 272 152 232 158 178Z" fill="#2A1E35"/>
+<path d="M130 362C130 292 170 256 210 256C250 256 290 292 290 362Z" fill="var(--accent)"/>
+<rect x="198" y="214" width="24" height="40" rx="10" fill="#B5744F"/>
+<ellipse cx="210" cy="180" rx="42" ry="49" fill="#C98B63"/>
+<path d="M166 168C172 124 248 124 254 168C236 148 196 142 166 168Z" fill="#2A1E35"/>
+<path d="M165 190C150 240 150 282 170 304L186 304C176 272 176 232 176 196Z" fill="#2A1E35"/><path d="M255 190C270 240 270 282 250 304L234 304C244 272 244 232 244 196Z" fill="#2A1E35"/>
+<circle cx="194" cy="182" r="3.2" fill="#2A1E35"/><circle cx="226" cy="182" r="3.2" fill="#2A1E35"/>
+<path d="M186 172Q194 167 201 171M219 171Q226 167 234 172" stroke="#2A1E35" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M198 202Q210 212 222 202" stroke="#8A4B3A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="210" cy="160" r="2.6" fill="#D64545"/>
+<circle cx="169" cy="198" r="3.5" fill="#E3B04B"/><circle cx="251" cy="198" r="3.5" fill="#E3B04B"/>
+<rect x="140" y="296" width="140" height="44" rx="7" fill="#3B4B66"/>
+<path transform="translate(210 318)" d="M0-11Q2-2 11 0Q2 2 0 11Q-2 2-11 0Q-2-2 0-11Z" fill="#9EC5FF"/>
+<rect x="112" y="338" width="196" height="12" rx="6" fill="#2C3A52"/>
+<ellipse cx="158" cy="336" rx="17" ry="9" fill="#C98B63"/><ellipse cx="262" cy="336" rx="17" ry="9" fill="#C98B63"/>
+</svg>
+</div>
+</div>
+
+<section id="work">
+<h2>Selected work</h2>
+<p class="lede">Three of these run online, so you can open them and try them.</p>
+
+<article class="work">
+<div class="shot" style="background:var(--p1)">
+<svg viewBox="0 0 480 300" role="img" aria-label="Preview: hand skeleton tracked from a webcam with the detected letter B at 98 percent">
+<rect x="50" y="24" width="380" height="252" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+<rect x="68" y="42" width="214" height="216" rx="8" fill="#243447"/>
+<g stroke="#7FD1D1" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M175 232L148 212L134 186L124 164"/><path d="M168 226L158 180L156 144L155 112"/><path d="M182 224L183 174L184 132L185 98"/><path d="M196 226L203 180L208 142L212 114"/><path d="M208 232L222 196L232 170L240 148"/><path d="M168 226L182 224L196 226L208 232L175 232Z"/></g>
+<g fill="#fff"><circle cx="148" cy="212" r="4"/><circle cx="134" cy="186" r="4"/><circle cx="124" cy="164" r="4"/><circle cx="158" cy="180" r="4"/><circle cx="156" cy="144" r="4"/><circle cx="155" cy="112" r="4"/><circle cx="183" cy="174" r="4"/><circle cx="184" cy="132" r="4"/><circle cx="185" cy="98" r="4"/><circle cx="203" cy="180" r="4"/><circle cx="208" cy="142" r="4"/><circle cx="212" cy="114" r="4"/><circle cx="222" cy="196" r="4"/><circle cx="232" cy="170" r="4"/><circle cx="240" cy="148" r="4"/><circle cx="175" cy="232" r="4"/></g>
+<g font-family="'IBM Plex Sans',system-ui,sans-serif"><text x="302" y="76" font-size="13" fill="var(--muted)">Detected sign</text><text x="302" y="150" font-size="76" font-weight="700" fill="var(--ink)" font-family="'Source Serif 4',Georgia,serif">B</text><rect x="302" y="176" width="104" height="8" rx="4" fill="var(--line)"/><rect x="302" y="176" width="102" height="8" rx="4" fill="var(--accent)"/><text x="302" y="208" font-size="14" fill="var(--ink)">98% confident</text></g>
+</svg>
+</div>
+<div>
+<h3>Sign Bridge</h3>
+<p>Point a webcam at your hand and it reads American Sign Language in real time.</p>
+<p class="res">98%+ accuracy from 21 hand landmarks per frame.</p>
+<p class="tech">Python, OpenCV, MediaPipe, Scikit-learn</p>
+<div class="btns"><a class="btn solid" href="https://kkr1486-sign-bridge-asl.hf.space">Try the live demo</a><a class="tl" href="https://github.com/r-am-ya/Sign-Bridge-asl">View code</a></div>
+</div>
+</article>
+
+<article class="work">
+<div class="shot" style="background:var(--p2)">
+<svg viewBox="0 0 480 300" role="img" aria-label="Preview: Big Five personality trait scores shown as bars">
+<rect x="50" y="24" width="380" height="252" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+<g font-family="'IBM Plex Sans',system-ui,sans-serif" font-size="13" fill="var(--ink)"><text x="76" y="62" font-size="15" font-weight="600">Big Five profile</text>
+<text x="76" y="104">Openness</text><text x="76" y="140">Conscientiousness</text><text x="76" y="176">Extraversion</text><text x="76" y="212">Agreeableness</text><text x="76" y="248">Neuroticism</text></g>
+<g fill="var(--line)"><rect x="228" y="92" width="170" height="12" rx="6"/><rect x="228" y="128" width="170" height="12" rx="6"/><rect x="228" y="164" width="170" height="12" rx="6"/><rect x="228" y="200" width="170" height="12" rx="6"/><rect x="228" y="236" width="170" height="12" rx="6"/></g>
+<g fill="var(--accent)"><rect x="228" y="92" width="140" height="12" rx="6"/><rect x="228" y="128" width="112" height="12" rx="6"/><rect x="228" y="164" width="86" height="12" rx="6"/><rect x="228" y="200" width="124" height="12" rx="6"/><rect x="228" y="236" width="60" height="12" rx="6"/></g>
+</svg>
+</div>
+<div>
+<h3>Personality Prediction System</h3>
+<p>Predicts Big Five personality traits and shows which inputs drove each result.</p>
+<p class="res">A PyTorch network benchmarked against classical models, validated with cross-validation and SHAP.</p>
+<p class="tech">Python, PyTorch, Scikit-learn, SHAP, Streamlit</p>
+<div class="btns"><a class="btn solid" href="https://ai-personality-system.onrender.com">Try the live demo</a><a class="tl" href="https://github.com/r-am-ya/AI-Based-Personality-Prediction-System">View code</a></div>
+</div>
+</article>
+
+<article class="work">
+<div class="shot" style="background:var(--p3)">
+<svg viewBox="0 0 480 300" role="img" aria-label="Preview: a search box with matching passages, a summary and named entities">
+<rect x="50" y="24" width="380" height="252" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+<rect x="72" y="46" width="336" height="34" rx="17" fill="none" stroke="var(--line)" stroke-width="1.5"/>
+<text x="92" y="68" font-size="13" fill="var(--muted)" font-family="'IBM Plex Sans',system-ui,sans-serif">What does the policy say about funding?</text>
+<rect x="72" y="100" width="336" height="76" rx="8" fill="var(--bg)"/>
+<rect x="88" y="114" width="150" height="8" rx="4" fill="var(--accent)"/><rect x="88" y="132" width="300" height="7" rx="3.5" fill="var(--line)"/><rect x="88" y="148" width="270" height="7" rx="3.5" fill="var(--line)"/><rect x="88" y="162" width="200" height="7" rx="3.5" fill="var(--line)"/>
+<text x="72" y="204" font-size="13" font-weight="600" fill="var(--ink)" font-family="'IBM Plex Sans',system-ui,sans-serif">Mentioned in this document</text>
+<g font-family="'IBM Plex Sans',system-ui,sans-serif" font-size="12" fill="var(--ink)"><rect x="72" y="216" width="104" height="26" rx="13" fill="none" stroke="var(--accent)"/><text x="124" y="233" text-anchor="middle">Ministry of Health</text><rect x="186" y="216" width="62" height="26" rx="13" fill="none" stroke="var(--accent)"/><text x="217" y="233" text-anchor="middle">Delhi</text><rect x="258" y="216" width="60" height="26" rx="13" fill="none" stroke="var(--accent)"/><text x="288" y="233" text-anchor="middle">2024</text></g>
+</svg>
+</div>
+<div>
+<h3>PolicyNav</h3>
+<p>Ask a question about a long policy document and get the relevant passages, a summary, and the people and organizations it mentions.</p>
+<p class="res">Built during my Infosys Springboard internship, with semantic search and secure login.</p>
+<p class="tech">Python, FAISS, spaCy, SQLite, JWT, Streamlit</p>
+<div class="btns"><a class="btn solid" href="https://chubby-vania-unwonderfully.ngrok-free.dev/">Try the live demo</a><a class="tl" href="https://github.com/r-am-ya/PolicyNav">View code</a></div>
+</div>
+</article>
+
+<article class="work">
+<div class="shot" style="background:var(--p4)">
+<svg viewBox="0 0 480 300" role="img" aria-label="Preview: a credit score of 720 out of 1000 shown on a gauge">
+<rect x="50" y="24" width="380" height="252" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+<path d="M120 190A90 90 0 0 1 300 190" fill="none" stroke="var(--line)" stroke-width="16" stroke-linecap="round" transform="translate(30 -20)"/>
+<path d="M120 190A90 90 0 0 1 267.3 120.6" fill="none" stroke="var(--accent)" stroke-width="16" stroke-linecap="round" transform="translate(30 -20)"/>
+<text x="240" y="170" text-anchor="middle" font-size="52" font-weight="700" fill="var(--ink)" font-family="'Source Serif 4',Georgia,serif">720</text>
+<text x="240" y="194" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="'IBM Plex Sans',system-ui,sans-serif">out of 1000</text>
+<rect x="188" y="222" width="104" height="30" rx="15" fill="var(--accent)"/><text x="240" y="242" text-anchor="middle" font-size="13" font-weight="600" fill="var(--on)" font-family="'IBM Plex Sans',system-ui,sans-serif">Eligible</text>
+</svg>
+</div>
+<div>
+<h3>AltCredit</h3>
+<p>A fair 0–1000 credit score for people with no credit history, built in 24 hours at the BNP Paribas Innoversite Hackathon 2026.</p>
+<p class="res">I built the FastAPI backend. 152 of 172 rejected applicants became eligible, with a risk model AUC of 0.84 and 80 automated tests.</p>
+<p class="tech">Python, FastAPI, SQLite, Scikit-learn</p>
+</div>
+</article>
+
+<article class="work">
+<div class="shot" style="background:var(--p5)">
+<svg viewBox="0 0 480 300" role="img" aria-label="Preview: a planned route around parked cars into a parking space">
+<rect x="50" y="24" width="380" height="252" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+<g stroke="var(--line)"><path d="M110 24V276M170 24V276M230 24V276M290 24V276M350 24V276M50 84H430M50 144H430M50 204H430"/></g>
+<rect x="132" y="112" width="76" height="40" rx="6" fill="#3B4B66"/><rect x="332" y="150" width="56" height="76" rx="6" fill="#3B4B66"/>
+<rect x="244" y="48" width="56" height="64" rx="4" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="6 5"/>
+<path d="M84 244H240Q272 244 272 212V120" fill="none" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"/>
+<circle cx="84" cy="244" r="8" fill="var(--accent)"/><path d="M262 124L272 106L282 124Z" fill="var(--accent)"/>
+</svg>
+</div>
+<div>
+<h3>Autonomous Vehicle Path Planning</h3>
+<p>An automatic parking system that spots obstacles and plans a smooth route into the space.</p>
+<p class="res">Collision-free paths in over 95% of test scenarios, using object detection and A* search.</p>
+<p class="tech">Python, OpenCV, NumPy, Roboflow</p>
+<div class="btns"><a class="tl" href="https://github.com/r-am-ya/Autonomous-vehicle-path-planning">View code</a></div>
+</div>
+</article>
+</section>
+
+<section id="about" class="block about">
+<h2>About me</h2>
+<p>I like taking an idea from a blank page to something that works: the data, the model, the API, the interface and the deployment. I’ve worked in an Agile team with mentors, writing tests, reviewing code and documenting what I build, and I enjoy explaining technical work in plain language.</p>
+<div class="cols">
+<div><h3>AI Intern</h3><p class="sub">Infosys Springboard, Feb to Apr 2026</p><ul><li>Built PolicyNav end to end, from document processing to dashboards.</li><li>Worked in sprints with code reviews, testing and documentation.</li></ul></div>
+<div><h3>B.Tech, Computer Science (AI & ML)</h3><p class="sub">Jain (Deemed-to-be) University, 2023 to 2027</p><p>CGPA 9.1 out of 10</p></div>
+<div><h3>Certifications</h3><ul><li>SQL Intermediate and Python Basic, HackerRank</li><li>AI Fundamentals, IBM</li><li>AI for Everyone and Streamlit ML apps, Coursera</li></ul></div>
+</div>
+</section>
+
+<section id="skills" class="block">
+<h2>Skills</h2>
+<dl class="sk">
+<dt>Languages</dt><dd>Python, Java, SQL, JavaScript, HTML, CSS</dd>
+<dt>Backend and databases</dt><dd>FastAPI, REST APIs, JWT auth, MySQL, MongoDB, SQLite</dd>
+<dt>AI and machine learning</dt><dd>Machine learning, deep learning, NLP, LLMs, computer vision</dd>
+<dt>Libraries</dt><dd>PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, OpenCV, MediaPipe, Streamlit</dd>
+<dt>Data visualization</dt><dd>Tableau, Matplotlib, Seaborn</dd>
+<dt>Tools</dt><dd>Git and GitHub, VS Code, Render, Hugging Face</dd>
+</dl>
+</section>
+
+<section id="contact" class="contact">
+<h2>Let’s build something useful.</h2>
+<p>I’m looking for internships and entry-level roles in AI, machine learning and software engineering. Write to me, or call.</p>
+<a class="mail" href="mailto:kuruvalaramya2006@gmail.com" target="_blank" rel="noopener">kuruvalaramya2006@gmail.com</a>
+<div class="btns"><a href="tel:+919347072020" target="_blank" rel="noopener">+91 93470 72020</a><a href="https://www.linkedin.com/in/ramyakuruvaladoddi/">LinkedIn</a><a href="https://github.com/r-am-ya">GitHub</a></div>
+</section>
+</main>
+<footer><div class="wrap">Ramya K, Bengaluru, India</div></footer>
+</body>
+</html>
